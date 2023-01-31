@@ -25,8 +25,8 @@ public class MathController {
                 properties);
     }
 
-    @GetMapping(value = "/moltiplication")
-    public int moltiplication(){
+    @GetMapping(value = "/multiplication")
+    public int multiplication(){
         int a= 3;
         int b= 3;
         return a * b;
