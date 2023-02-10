@@ -32,7 +32,7 @@ public class MathController {
         return a * b;
     }
 
-    @GetMapping(value = "/multiplication")
+    @GetMapping(value = "/multiplicationOperand")
     public int getMultiplication(
             @RequestParam(required = true) int operand1,
             @RequestParam(required = true) int operand2
